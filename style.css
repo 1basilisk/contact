@@ -180,7 +180,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background: black;
+    background: #3e1168;
   }
   section {
 
@@ -192,6 +192,7 @@ body {
     
   }
   .container .contactinfo h2 {
+    margin-top: 5%;
     text-align: center;
     font-size: 250%;
   }
@@ -281,8 +282,8 @@ body {
   .container .contactusform .formBox .inputBox input[type=submit] {
     position:absolute;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 22.5%;
+   
     margin-bottom: 5%;
     border-radius: 10px;
     cursor: pointer;
