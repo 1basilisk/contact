@@ -107,6 +107,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 .container .contactusform .formBox .inputBox {
   position: relative;
@@ -171,7 +172,16 @@ body {
 
 @media screen and (max-width: 480px) {
 
-  
+  .container .contactinfo {
+    display: flex;
+    top: 0;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: black;
+  }
   section {
 
     position:absolute;
@@ -183,12 +193,14 @@ body {
   }
   .container .contactinfo h2 {
     text-align: center;
+    font-size: 250%;
   }
   .container .contactinfo{
 
     width: 90%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+   
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     margin-top: 80px;
     margin-bottom: 0px;
     margin-right: auto;
@@ -201,9 +213,9 @@ body {
   section .container .contactinfo .info {
     flex-direction:row;
 
-    margin-top: 17px;
-    padding-left: 15px;
-    min-height: 3vh;
+    margin-top: 1px;
+    padding-left: 1px;
+    min-height: 1vh;
 
   }
       
@@ -238,8 +250,8 @@ body {
     justify-content: center;
     background-color: #eee;
     top: 0;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   .container .contactusform h2 {
     color: #000;
@@ -268,19 +280,16 @@ body {
 
   .container .contactusform .formBox .inputBox input[type=submit] {
     position:absolute;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
     border-radius: 10px;
     cursor: pointer;
     background-color: #61479c;
     color: #fff;
-    border: none;
-    text-align: center;
-
-
-   
-   
     
-  
-      
+    text-align: center;
   }
   .container .contactusform .formBox .inputBox input[type=submit]:hover {
     background-color: #dcdcdc;
