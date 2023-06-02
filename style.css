@@ -179,7 +179,7 @@ body {
     margin-right: 20px;
   }
 } */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1500px) {
   section {
     position: relative;
     display: flex;
