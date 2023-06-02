@@ -2,8 +2,8 @@
 body {
   background-image: url("tex.jpeg");
   background-size: 400% 400%;
-  -webkit-animation: gradient 30s ease infinite;
-          animation: gradient 30s ease infinite;
+  -webkit-animation: gradient 80s ease infinite;
+          animation: gradient 80s ease infinite;
   height: 100vh;
 }
 
@@ -168,7 +168,7 @@ body {
   width: 100%;
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .container .contactinfo h2 {
     text-align: center;
   }
@@ -178,8 +178,8 @@ body {
   .container .contactinfo li span:nth-child(2) {
     margin-right: 20px;
   }
-}
-@media screen and (min-width: 900px) {
+} */
+@media screen and (min-width: 1080px) {
   section {
     position: relative;
     display: flex;
