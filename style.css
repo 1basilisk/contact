@@ -51,6 +51,7 @@ section {
 
 .container .contactinfo {
   display: flex;
+  border-radius: 5px;
   top: 0;
   height: 100%;
   flex-direction: column;
@@ -116,6 +117,7 @@ section .container .contactinfo .info {
 }
 .container .contactusform {
   display: flex;
+  border-radius: 5px;
   flex-direction: column;
   justify-content: center;
   padding: 70px 50px;
@@ -185,6 +187,7 @@ section .container .contactinfo .info {
   color: #fff;
   border: none;
   max-width: 150px;
+  border-radius: 5px;
   padding: 12px;
 }
 .container .contactusform .formBox .inputBox input[type=submit]:hover {
